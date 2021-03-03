@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown component is rendering 1`] = `
+<DocumentFragment>
+  <div
+    class="dropdown"
+  >
+    <div
+      class="dropdown-trigger"
+    >
+      <button
+        aria-controls="dropdown-menu"
+        aria-haspopup="true"
+        class="button"
+      >
+        <span>
+          3
+        </span>
+        <span
+          class="icon is-small"
+        >
+          <i
+            aria-hidden="true"
+            class="fas fa-angle-down"
+          />
+        </span>
+      </button>
+    </div>
+    <div
+      class="dropdown-menu"
+      id="dropdown-menu"
+      role="menu"
+    >
+      <div
+        class="dropdown-content"
+        style="overflow-y: auto; max-height: 200px;"
+      >
+        <div
+          class="dropdown-item"
+          data-label="1"
+          data-value="2"
+        >
+          1
+        </div>
+        <div
+          class="dropdown-item is-active"
+          data-label="3"
+          data-value="4"
+        >
+          3
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

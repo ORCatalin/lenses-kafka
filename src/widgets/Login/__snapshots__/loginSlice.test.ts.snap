@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test login slice for setHost action 1`] = `
+Object {
+  "host": "127.0.0.1",
+  "loadingStatus": 2,
+  "password": "",
+  "token": "",
+  "user": "",
+}
+`;
